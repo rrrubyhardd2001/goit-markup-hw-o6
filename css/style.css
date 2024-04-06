@@ -152,3 +152,24 @@ section {
     text-align: center;
     margin-bottom: 8px;
 }
+
+/* fourth section */
+
+.fourth_s_title {
+    margin-bottom: 72px;
+}
+.fourth_s_list {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 48px;
+}
+.fourth_s_item {
+    width: calc((100% - 48px) / 3);
+}
+.fourth_s_wrap_app {
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
+    margin-bottom: 8px;
+}
