@@ -84,6 +84,10 @@ section {
     max-width: 496px;
     text-align: center;
     margin: 0 auto;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 60px;
+    color: white;
 }
 .first_s_button {
     display: block;
@@ -93,7 +97,9 @@ section {
     background-color: #4d5ae5;
     border-radius: 4px;
     cursor: pointer;
-    margin: 0 auto;
+    margin: 40px auto 0;
+    font-size: 16px;
+    line-height: 24px;
 }
 
 /* second section */
@@ -120,9 +126,15 @@ section {
 }
 .second_list_title {
     margin-bottom: 8px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
 }
 .second_list_text {
     margin-bottom: 8px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
 }
 
 /* third section */
@@ -130,6 +142,10 @@ section {
 .third_s_title {
     margin-bottom: 72px;
     text-align: center;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 40px;
+
 }
 .third_s_list {
     display: flex;
@@ -147,16 +163,25 @@ section {
 .third_worker_name {
     text-align: center;
     margin-bottom: 8px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
 }
 .third_worker_job {
     text-align: center;
     margin-bottom: 8px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
 }
 
 /* fourth section */
 
 .fourth_s_title {
     margin-bottom: 72px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 40px;
 }
 .fourth_s_list {
     display: flex;
@@ -174,17 +199,40 @@ section {
 }
 .fourth_s_title_app {
     margin-bottom: 8px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
 }
 
 /* footer */
 
 .footer-footer {
     padding: 100px 0;
+    background-color:#2E2F42;
 }
-.footer_link {
+.footer_logo {
     display: inline-block;
     margin-bottom: 16px;
+    color: #4D5AE5;
+    font-size: 18px;
+    line-height: 21px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: Raleway;
+
+}
+.footer_logo_span {
+    color: #F4F4FD;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    text-transform: uppercase;
+    font-family: Raleway;
 }
 .footer_text {
     max-width: 264px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #E7E9FC;
 }
