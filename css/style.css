@@ -26,6 +26,13 @@ img {
 
 /* header */
 
+.container_header{
+    display: flex;
+    align-items: center;
+    width: 1158px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
 .header_header {
     border-bottom: 1px solid #e7e9fc;
     display: flex;
@@ -61,5 +68,4 @@ img {
 .header_list_address {
     display: flex;
     gap: 40px;
-    align-items: center;
 }
