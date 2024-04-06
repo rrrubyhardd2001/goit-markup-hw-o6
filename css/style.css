@@ -5,9 +5,11 @@ body {
 }
 a {
     text-decoration: none;
+    color: #434455;
 }
 ul , li {
     list-style-type: none;
+    color: #2E2F42;
 }
 h1, h2, h3, h4, h5, h6, p, ul {
     margin: 0;
@@ -29,9 +31,7 @@ img {
 .container_header{
     display: flex;
     align-items: center;
-    width: 1158px;
-    margin: 0 auto;
-    padding: 0 15px;
+    justify-content: space-between;
 }
 .header_header {
     border-bottom: 1px solid #e7e9fc;
@@ -52,9 +52,9 @@ img {
     font-size: 18px;
     line-height: 1.17;
     letter-spacing: 0.03em;
+    margin-right: 76px;
 }
 .header_logo_span {
-    margin-right: 76px;
     color: #2E2F42;
     text-transform: uppercase;
 }
