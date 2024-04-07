@@ -19,7 +19,7 @@ h1, h2, h3, h4, h5, h6, p, ul {
 .container {
     width: 1158px;
     margin: 0 auto;
-    padding: 0 15px;
+    padding: 0;
 }
 .section {
     padding: 120px auto;
@@ -159,9 +159,6 @@ section {
     flex-basis: calc((100% - 3 * 24px) / 4);
     border-radius: 0 0 4px 4px;
 }
-.third_s_workers {
-    
-}
 .third_worker_wrap {
     padding: 32px 0;
 }
@@ -193,6 +190,8 @@ section {
     display: flex;
     flex-wrap: wrap;
     column-gap: 24px;
+}
+..fourth_s_list:not(:last-child) {
     row-gap: 48px;
 }
 .fourth_s_item {
