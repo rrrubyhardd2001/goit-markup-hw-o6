@@ -90,6 +90,7 @@ section {
   font-size: 16px;
   line-height: 24px;
   position: relative;
+  color: #2e2f42;
 }
 .header_item:hover {
   color: #4d5ae5;
@@ -103,9 +104,10 @@ section {
   height: 4px;
   background-color: #404bbf;
   border-radius: 2px;
-  /* transition: color;
-  transition-duration: 250ms; */
-  transition: color, 250ms, cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  /* transition: color, 250ms, cubic-bezier(0.4, 0, 0.2, 1); */
 }
 .header_item:active {
   text-decoration: underline;
@@ -122,7 +124,9 @@ section {
 }
 .header_list_link:hover {
   color: #4d5ae5;
-  transition: color, 250ms, cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /* first section */
