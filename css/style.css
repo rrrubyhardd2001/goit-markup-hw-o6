@@ -106,9 +106,9 @@ section {
   height: 4px;
   background-color: #404bbf;
   border-radius: 2px;
-  /* transition: color;
+  transition: color;
   transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); */
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .header_item:active {
   text-decoration: underline;
