@@ -95,7 +95,7 @@ section {
 .header_item:hover {
   color: #4d5ae5;
 }
-.header_item:hover::after {
+.header_item::after {
   content: "";
   width: 100%;
   position: absolute;
