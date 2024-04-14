@@ -90,7 +90,7 @@ section {
   font-size: 16px;
   line-height: 24px;
   position: relative;
-  color: #404bbf;
+  color: #434455;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .header_item:hover {
@@ -162,7 +162,7 @@ section {
   font-size: 16px;
   line-height: 24px;
   color: white;
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .first_s_button:hover {
   background-color: #404bbf;
@@ -188,6 +188,16 @@ section {
 }
 .second_list_item {
   flex-basis: calc((100% - 3 * 24px) / 4);
+}
+.second_list_icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 112px;
+  background-color: #f4f4fd;
+  border-radius: 4px;
+  border: 1px solid #8e8f99;
+  margin-bottom: 8px;
 }
 .second_list_title {
   margin-bottom: 8px;
