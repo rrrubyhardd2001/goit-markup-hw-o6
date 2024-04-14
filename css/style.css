@@ -270,7 +270,7 @@ section {
   align-items: center;
   justify-content: center;
 }
-.third_s_icons_color:hover {
+.third_s_icons_color {
   fill: #f4f4fd;
 }
 .third_s_icons_link:hover,
