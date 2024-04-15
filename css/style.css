@@ -328,9 +328,6 @@ section {
 .fourth_s_wrap_app:hover {
   cursor: pointer;
 }
-.fourth_s_page:hover {
-  transform: translateY(0%);
-}
 .fourth_s_title_app {
   margin-bottom: 8px;
   font-weight: 500;
