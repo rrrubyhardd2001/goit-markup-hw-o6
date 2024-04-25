@@ -406,3 +406,38 @@ section {
 .footer_social_networks_link:focus {
   background-color: #31d0aa;
 }
+
+/* subscribe footer  */
+
+.subscribes {
+  display: flex;
+  margin-left: 80px;
+}
+.formFooterText {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+}
+.formFooterInput {
+  padding: 8px 0 8px 16px;
+  background-color: #2e2f42;
+  height: 40px;
+  max-width: 264px;
+  border: 2px solid white;
+  border-radius: 5px;
+}
+.formFooterInput::placeholder {
+  color: white;
+}
+.formFooterBtn {
+  margin-left: 24px;
+  background-color: rgba(77, 90, 229, 1);
+  color: white;
+  height: 40px;
+  max-width: 165px;
+  font-size: 16px;
+  line-height: 24px;
+  padding: 8px 0 8px 24px;
+}
+.formFootersvg {
+}
