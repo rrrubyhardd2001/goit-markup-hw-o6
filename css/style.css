@@ -621,9 +621,6 @@ input:focus + .modal_form_svg {
    justify-content: center;
    fill: transparent;
 }
-.modal_label_span:checked {
-  fill: #f4f4fd;
-}
 input[type="checkbox"]:checked + label {
   background-color: #404bbf;
   fill: #F4F4FD;
