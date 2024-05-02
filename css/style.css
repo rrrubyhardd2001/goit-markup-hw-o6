@@ -561,6 +561,7 @@ button.modal_w_button:focus {
 }
 .modal_input:focus {
   border-color: #4D5AE5;
+  fill: #4d5ae5;
 }
 .modal_form_svg {
   position: absolute;
